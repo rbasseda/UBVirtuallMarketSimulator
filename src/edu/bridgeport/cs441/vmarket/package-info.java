@@ -1,6 +1,6 @@
 /**
  * 
- * This package implements the initialization classes and
+ * This package contains the initialization classes and
  * shared resources.
  * 
  * @author Reza Basseda
