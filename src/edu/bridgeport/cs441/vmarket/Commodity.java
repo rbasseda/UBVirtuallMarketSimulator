@@ -18,6 +18,7 @@ import edu.bridgeport.cs441.vmarket.parties.Person;
  * the market.
  * 
  * The class has the following attributes:
+ * This is a demo of EGit
  * 
  * 
  * @author Reza Basseda
@@ -31,7 +32,7 @@ public class Commodity implements Purchasable {
 	/* (non-Javadoc)
 	 * @see edu.bridgeport.cs441.vmarket.Purchasable#Purchased(int, edu.bridgeport.cs441.vmarket.parties.Person)
 	 */
-	@Override
+	
 	public boolean Purchased(int price, Person reciever) {
 		// TODO Auto-generated method stub
 		return false;
