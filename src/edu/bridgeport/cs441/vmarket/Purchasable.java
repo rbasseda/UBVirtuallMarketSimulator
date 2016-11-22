@@ -1,5 +1,5 @@
 /**
- * 
+ * Phaneendra and Ashok
  */
 package edu.bridgeport.cs441.vmarket;
 
@@ -11,7 +11,7 @@ import edu.bridgeport.cs441.vmarket.parties.Person;
  * 
  * @author Reza Basseda
  *
- *
+ * 
  */
 public interface Purchasable {
 	

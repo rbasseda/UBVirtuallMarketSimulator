@@ -7,6 +7,8 @@
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  * 
+ * Phaneendra and Mani
+ * 
  * Created on: Nov 22, 2016
  */
 package edu.bridgeport.cs441.vmarket;
@@ -16,8 +18,7 @@ import edu.bridgeport.cs441.vmarket.parties.Person;
 /**
  * The Commodity class is representing any item that can be traded in 
  * the market.
- * fdsgsgsgfgfg
- * 
+ *  
  * The class has the following attributes:
  * This is a demo of EGit
  * 
