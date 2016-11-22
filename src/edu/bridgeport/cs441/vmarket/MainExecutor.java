@@ -56,9 +56,9 @@ public class MainExecutor {
 	 * @param args
 	 */
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
+		// TODO First changes by Allaa
 		System.out.println("First message shown to the market.");
+		
 
 	}
 	
