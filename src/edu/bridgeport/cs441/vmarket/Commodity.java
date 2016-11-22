@@ -16,6 +16,7 @@ import edu.bridgeport.cs441.vmarket.parties.Person;
 /**
  * The Commodity class is representing any item that can be traded in 
  * the market.
+ * fdsgsgsgfgfg
  * 
  * The class has the following attributes:
  * This is a demo of EGit
