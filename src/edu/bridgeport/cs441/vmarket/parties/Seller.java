@@ -13,4 +13,8 @@ public interface Seller{
 	public boolean addCommodityToMarket(Commodity commodityToSell, int initialPrice, int quantity );
 	public boolean removeCommodityToMarket(Commodity commodityToSell, int quantity );
 	
+	
+	
+	//TEST CHANGE BY PETER.
+	
 }
