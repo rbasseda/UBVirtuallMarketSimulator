@@ -17,9 +17,6 @@ public class MainExecutor {
 	
 	private static MainExecutor instance;
 	
-	
-	
-	
 	/**
 	 * This constructor simply initialize the market and 
 	 * read the configuration files.
@@ -28,11 +25,6 @@ public class MainExecutor {
 		super();
 	}
 	
-	
-	
-
-
-
 	/**
 	 * Since we need only one instance of MainExecutor across 
 	 * the whole project, we follow singleton design pattern.
@@ -47,21 +39,12 @@ public class MainExecutor {
 		return instance;
 	}
 
-
-
-
-
-
 	/**
 	 * @param args
 	 */
 	public static void main(String[] args) {
 		// TODO First changes by Allaa
 		System.out.println("First message shown to the market.");
-		
-
 	}
-	
-	
 
 }

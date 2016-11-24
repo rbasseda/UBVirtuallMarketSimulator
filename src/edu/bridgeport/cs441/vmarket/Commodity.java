@@ -7,7 +7,7 @@
  * This software may be modified and distributed under the terms
  * of the BSD license.  See the LICENSE file for details.
  * 
- * Phaneendra and Mani
+ * Phaneendra and ashok
  * 
  * Created on: Nov 22, 2016
  */
@@ -27,17 +27,14 @@ import edu.bridgeport.cs441.vmarket.parties.Person;
  *
  */
 public class Commodity implements Purchasable {
-
 	/**
 	 * @author 
 	 */
 	/* (non-Javadoc)
 	 * @see edu.bridgeport.cs441.vmarket.Purchasable#Purchased(int, edu.bridgeport.cs441.vmarket.parties.Person)
 	 */
-	
 	public boolean Purchased(int price, Person reciever) {
 		// TODO Auto-generated method stub
 		return false;
 	}
-
 }
