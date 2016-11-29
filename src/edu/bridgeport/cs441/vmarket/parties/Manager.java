@@ -13,10 +13,54 @@
  */
 package edu.bridgeport.cs441.vmarket.parties;
 
+import edu.bridgeport.cs441.vmarket.Commodity;
+
 /**
- * @author Reza Basseda
+ * @author Reza Basseda , Alaa Elsaka
  *
  */
-public class Manager extends Person {
+public class Manager extends Person implements Buyer, Seller {
+
+/**
+* @see edu.bridgeport.cs441.vmarket.parties.Seller#addCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int, int)
+* 
+*/
+	/**
+	 * The manager can add Commodity to the market as well as removing it
+	 */
+	@Override
+	public boolean addCommodityToMarket(Commodity commodityToSell, int initialPrice, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
+	 */
+	@Override
+	public boolean removeCommodityToMarket(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	/**
+	 * The manager can add Commodity to the market as well as removing it
+	 */
+	@Override
+	public boolean addCommodityToCart(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
+	 */
+	@Override
+	public boolean removeCommodityFromCart(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
 
 }

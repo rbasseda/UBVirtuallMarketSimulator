@@ -14,7 +14,13 @@ package edu.bridgeport.cs441.vmarket.parties;
 import edu.bridgeport.cs441.vmarket.Commodity;
 
 /**
- * @author Reza Basseda
+ * @author Reza Basseda , Alaa Elsaka
+ *
+ */
+
+/**
+ * As The trader could also be a seller for other products , so I suggest implement the selling interface as may be proposed by Professor Reza
+ * @author AElsaka
  *
  */
 public class Trader extends Party implements Buyer, Seller {
@@ -37,4 +43,22 @@ public class Trader extends Party implements Buyer, Seller {
 		return false;
 	}
 
+	/**
+	 * The manager can add Commodity to the market as well as removing it
+	 */
+	@Override
+	public boolean addCommodityToCart(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	/* (non-Javadoc)
+	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
+	 */
+	@Override
+	public boolean removeCommodityFromCart(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
 }
