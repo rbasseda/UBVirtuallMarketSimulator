@@ -18,6 +18,49 @@ import edu.bridgeport.cs441.vmarket.Commodity;
  *
  */
 public class Shopper extends Party implements Buyer {
+	String corporationName;
+	float budget;
+
+	/**
+	 * @param fName
+	 * @param lName
+	 * @param id
+	 * @param corporationName
+	 * @param budget
+	 */
+	public Shopper(String fName, String lName, int id, String corporationName, float budget) {
+		super(fName, lName, id);
+		this.corporationName = corporationName;
+		this.budget = budget;
+	}
+
+	/**
+	 * @return the corporationName
+	 */
+	public String getCorporationName() {
+		return corporationName;
+	}
+
+	/**
+	 * @param corporationName the corporationName to set
+	 */
+	public void setCorporationName(String corporationName) {
+		this.corporationName = corporationName;
+	}
+
+	/**
+	 * @return the budget
+	 */
+	public float getBudget() {
+		return budget;
+	}
+
+	/**
+	 * @param budget the budget to set
+	 */
+	public void setBudget(float budget) {
+		this.budget = budget;
+	}
 
 	/**
 	 * The manager can add Commodity to the market as well as removing it
