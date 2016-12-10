@@ -14,7 +14,7 @@ package edu.bridgeport.cs441.vmarket.parties;
 import edu.bridgeport.cs441.vmarket.Commodity;
 
 /**
- * @author Reza Basseda , Alaa Elsaka
+ * @author Reza Basseda , Alaa Elsaka , Jay Sheth
  *
  */
 public class Shopper extends Party implements Buyer {
@@ -65,19 +65,24 @@ public class Shopper extends Party implements Buyer {
 	/**
 	 * The manager can add Commodity to the market as well as removing it
 	 */
-	@Override
-	public boolean addCommodityToCart(Commodity commodityToSell, int quantity) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
 
 	/* (non-Javadoc)
 	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
 	 */
 	@Override
-	public boolean removeCommodityFromCart(Commodity commodityToSell, int quantity) {
+	public boolean addCommodityToCart(Commodity commodityToSell, int quantity, int sellingPrice) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 	
+	@Override
+	public boolean removeCommodityFromCart(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	
+	
 }
+

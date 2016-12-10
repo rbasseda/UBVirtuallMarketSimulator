@@ -1,4 +1,5 @@
 /**
+ /**
  * Trader.java
  * 
  * Copyright (C) The University of Bridgeport, 2016
@@ -46,11 +47,7 @@ public class Trader extends Party implements Buyer, Seller {
 	/**
 	 * The manager can add Commodity to the market as well as removing it
 	 */
-	@Override
-	public boolean addCommodityToCart(Commodity commodityToSell, int quantity) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+	
 
 	/* (non-Javadoc)
 	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
@@ -60,5 +57,21 @@ public class Trader extends Party implements Buyer, Seller {
 		// TODO Auto-generated method stub
 		return false;
 	}
+
+	// change as per inerface - Jay Sheth
+	@Override
+	public boolean addCommodityToCart(Commodity commodityToSell, int quantity, int sellingPrice) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 	
 }
+
+
+
+
+	
+	
+	
+
+

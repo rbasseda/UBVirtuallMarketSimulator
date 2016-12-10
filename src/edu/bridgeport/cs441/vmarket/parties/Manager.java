@@ -43,24 +43,29 @@ public class Manager extends Person implements Buyer, Seller {
 		return false;
 	}
 	
+	
 	/**
 	 * The manager can add Commodity to the market as well as removing it
 	 */
+	
+	/** Doubt:
+	* How can Manager add stuff to buyer's cart?
+	* How can he remove it from buyer's cart?
+	* -Jay Sheth
+	*/
+	
+	
 	@Override
-	public boolean addCommodityToCart(Commodity commodityToSell, int quantity) {
+	public boolean addCommodityToCart(Commodity commodityToSell, int quantity, int sellingPrice) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 
-	/* (non-Javadoc)
-	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
-	 */
 	@Override
 	public boolean removeCommodityFromCart(Commodity commodityToSell, int quantity) {
 		// TODO Auto-generated method stub
 		return false;
 	}
 	
-	
-
 }
+	
