@@ -11,16 +11,19 @@
  */
 package edu.bridgeport.cs441.vmarket.parties;
 
+import java.util.List;
+
 import edu.bridgeport.cs441.vmarket.Commodity;
 
 /**
- * @author Reza Basseda , Alaa Elsaka , Jay Sheth
+ * @author Reza Basseda , Alaa Elsaka , Jay Sheth , Peter Yasutake
  *
  */
 public class Shopper extends Party implements Buyer {
-	String corporationName;
-	float budget;
-
+	private float budget;
+	private List<Commodity> shoppingCart;
+	
+	
 	/**
 	 * @param fName
 	 * @param lName
@@ -29,24 +32,11 @@ public class Shopper extends Party implements Buyer {
 	 * @param budget
 	 */
 	public Shopper(String fName, String lName, int id, String corporationName, float budget) {
-		super(fName, lName, id);
-		this.corporationName = corporationName;
+		super(fName, lName, id, corporationName);
 		this.budget = budget;
 	}
 
-	/**
-	 * @return the corporationName
-	 */
-	public String getCorporationName() {
-		return corporationName;
-	}
-
-	/**
-	 * @param corporationName the corporationName to set
-	 */
-	public void setCorporationName(String corporationName) {
-		this.corporationName = corporationName;
-	}
+	
 
 	/**
 	 * @return the budget
@@ -78,6 +68,12 @@ public class Shopper extends Party implements Buyer {
 	
 	@Override
 	public boolean removeCommodityFromCart(Commodity commodityToSell, int quantity) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	public boolean commitPurchase() {
 		// TODO Auto-generated method stub
 		return false;
 	}

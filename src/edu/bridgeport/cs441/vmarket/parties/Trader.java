@@ -12,10 +12,12 @@
  */
 package edu.bridgeport.cs441.vmarket.parties;
 
+import java.util.List;
+
 import edu.bridgeport.cs441.vmarket.Commodity;
 
 /**
- * @author Reza Basseda , Alaa Elsaka
+ * @author Reza Basseda , Alaa Elsaka , Peter Yasutake
  *
  */
 
@@ -25,7 +27,13 @@ import edu.bridgeport.cs441.vmarket.Commodity;
  *
  */
 public class Trader extends Party implements Buyer, Seller {
-
+	
+	private float profit;
+	private List<Commodity> shoppingCart;
+	
+	
+	
+	
 	/* (non-Javadoc)
 	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#addCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int, int)
 	 */
@@ -64,6 +72,25 @@ public class Trader extends Party implements Buyer, Seller {
 		// TODO Auto-generated method stub
 		return false;
 	}
+	
+	/**
+	 * Returns a list of all Commodities listed by this Trader.
+	 * @return
+	 */
+	@Override
+	public Commodity[] viewCommoditiesInMarket(){
+		Commodity[] portfolio = null;
+		
+		return portfolio;
+	}
+
+	@Override
+	public boolean commitPurchase() {
+		// TODO Auto-generated method stub
+		return false;
+	}
+	
+	
 	
 }
 

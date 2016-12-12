@@ -12,23 +12,22 @@
 package edu.bridgeport.cs441.vmarket.parties;
 
 /**
- * @author Reza Basseda
+ * @author Reza Basseda, Peter Yasutake
  *
  */
 public abstract class Party extends Person {
-	protected String fName;
-	protected String lName;
 	int id;
+	String corporationName;
+	
 	/**
 	 * @param fName 
 	 * @param lName
 	 * @param id
 	 */
-	public Party(String fName, String lName, int id) {
-		super();
-		this.fName = fName;
-		this.lName = lName;
+	public Party(String fName, String lName, int id, String corporationName) {
+		super(fName,lName);
 		this.id = id;
+		this.corporationName = corporationName;
 	}
 	/**
 	 * 
@@ -36,30 +35,6 @@ public abstract class Party extends Person {
 	public Party() {
 		super();
 		// TODO Auto-generated constructor stub
-	}
-	/**
-	 * @return the fName
-	 */
-	public String getfName() {
-		return fName;
-	}
-	/**
-	 * @param fName the fName to set
-	 */
-	public void setfName(String fName) {
-		this.fName = fName;
-	}
-	/**
-	 * @return the lName
-	 */
-	public String getlName() {
-		return lName;
-	}
-	/**
-	 * @param lName the lName to set
-	 */
-	public void setlName(String lName) {
-		this.lName = lName;
 	}
 	/**
 	 * @return the id
@@ -72,6 +47,19 @@ public abstract class Party extends Person {
 	 */
 	public void setId(int id) {
 		this.id = id;
+	}
+	/**
+	 * @return the corporationName
+	 */
+	public String getCorporationName() {
+		return corporationName;
+	}
+
+	/**
+	 * @param corporationName the corporationName to set
+	 */
+	public void setCorporationName(String corporationName) {
+		this.corporationName = corporationName;
 	}
 	
 	
