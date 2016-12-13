@@ -38,7 +38,7 @@ public class Manager extends Person implements Buyer, Seller {
 	 * @see edu.bridgeport.cs441.vmarket.parties.Seller#removeCommodityToMarket(edu.bridgeport.cs441.vmarket.Commodity, int)
 	 */
 	@Override
-	public boolean removeCommodityToMarket(Commodity commodityToSell, int quantity) {
+	public boolean removeCommodityFromMarket(Commodity commodityToSell, int quantity) {
 		// TODO Auto-generated method stub
 		return false;
 	}

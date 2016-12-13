@@ -11,7 +11,7 @@ import edu.bridgeport.cs441.vmarket.Commodity;
  */
 public interface Seller{
 	public boolean addCommodityToMarket(Commodity commodityToSell, int initialPrice, int quantity );
-	public boolean removeCommodityToMarket(Commodity commodityToSell, int quantity );
+	public boolean removeCommodityFromMarket(Commodity commodityToSell, int quantity );
 	
 	
 	
