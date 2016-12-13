@@ -28,7 +28,7 @@ import edu.bridgeport.cs441.vmarket.parties.Person;
  */
 public class Commodity implements Purchasable {
 	/**
-	 * @author 
+	 * @author Reza Basseda
 	 */
 	/* (non-Javadoc)
 	 * @see edu.bridgeport.cs441.vmarket.Purchasable#Purchased(int, edu.bridgeport.cs441.vmarket.parties.Person)
